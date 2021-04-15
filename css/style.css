@@ -276,7 +276,7 @@ text-align: center;
 .portifolio .subtitulo::after{
     background: #fec63e;
 }
-.portifolio li:last-child{
+.portifolio div:last-of-type{
 
     margin-top: 20px;
 }
@@ -317,7 +317,7 @@ color: white;
 
 .qualidade li{
 text-align: center;
-padding: 0 40px;
+padding: 0 20px;
 
 }
 
