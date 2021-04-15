@@ -49,13 +49,43 @@
 
     <section class="container">
 
-        <blockquote class="quote_clientes">
-            <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a
-                velocidade transcendental. Nunca vida nada igual.”
-            </p>
-            <cite>Barbara Moss
-            </cite>
-        </blockquote>
+
+        <ul class="rslides">
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda
+                        e a
+                        velocidade transcendental. Nunca vida nada igual.”
+                    </p>
+                    <cite>Barbara Moss
+                    </cite>
+                </blockquote>
+            </li>
+
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda
+                        e a
+                        nostalgia é fenomenal Nunca vida nada igual.”
+                    </p>
+                    <cite>jhonny Rato Moss
+                    </cite>
+                </blockquote>
+            </li>
+
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda
+                        e 0
+                        conforto é sem igual Nunca vida nada igual.”
+                    </p>
+                    <cite>Jacinto ocrazy
+                    </cite>
+                </blockquote>
+            </li>
+        </ul>
+
+
     </section>
 
 
@@ -68,15 +98,25 @@
     <section class="portifolio">
         <div class="container">
 
-            <ul class="portifolio_lista">
-                <li class="grid-8"> <img src="img/portfolio/retro.jpg" alt="bike retro"></li>
+            <ul class="portifolio_lista rslides_portifolio">
+                <li>
+                    <div class="grid-8"> <img src="img/portfolio/retro.jpg" alt="bike retro"></div>
 
-                <li class="grid-8"> <img src="img/portfolio/passeio.jpg" alt="bike passeio"></li>
+                    <div class="grid-8"> <img src="img/portfolio/passeio.jpg" alt="bike passeio"></div>
+
+                    <div class="grid-16"> <img src="img/portfolio/esporte.jpg" alt="bike esporte"></div>
 
 
-                <li class="grid-16"> <img src="img/portfolio/esporte.jpg" alt="bike esporte"></li>
+                </li>
+
+                <li>
+                    <div class="grid-8"> <img src="img/portfolio/passeio.jpg" alt="bike passeio"></div>
+                    <div class="grid-8"> <img src="img/portfolio/retro.jpg" alt="bike retro"></div>
+                    <div class="grid-16"> <img src="img/portfolio/esporte.jpg" alt="bike esporte"></div>
+
+
+                </li>
             </ul>
-
         </div>
     </section>
 
@@ -146,6 +186,20 @@
 
 
 
+    <!-- javascrip -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <script src="js/libs/jquery1.4.4.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(function () {
+            $(".rslides").responsiveSlides();
+        });
+    </script>
+    <!-- javaScript -->
 
 </body>
 
